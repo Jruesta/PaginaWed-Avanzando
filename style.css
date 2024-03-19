@@ -1,0 +1,66 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body {
+    font-family:"Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+
+}
+
+header {
+    background-color: #0099ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos específicos para secciones */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%; /* Imágenes responsivas */
+    height: auto; /* Evita que las imágenes se distorsionen */
+    border: 1% solid #0099ff; /* Borde relativo al ancho de la imagen */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las imágenes */
+}
+
+/* Estilos para los títulos de sección */
+section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para los textos de sección */
+section h3 {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #666;
+}
+
+/* Estilos para el footer (puedes añadir más estilos si lo necesitas) */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
